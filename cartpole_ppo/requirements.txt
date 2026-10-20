@@ -1,0 +1,6 @@
+# torch 先由 setup.sh 从官方 CPU 仓库安装；这里的版本约束防止换成 CUDA 包。
+torch==2.8.0+cpu
+gymnasium[classic-control]==1.2.3
+stable-baselines3==2.7.1
+numpy==2.2.6
+pillow==11.3.0

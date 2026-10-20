@@ -1,0 +1,4 @@
+# 让编辑器从本项目的环境解析依赖，避免使用系统或 ROS 的 Python。
+project-includes = ["cartpole.py"]
+python-interpreter-path = ".env/bin/python"
+site-package-path = [".env/lib/python3.11/site-packages"]

@@ -1,0 +1,6 @@
+.env/
+.mamba/
+.tools/
+.cache/
+__pycache__/
+outputs/
